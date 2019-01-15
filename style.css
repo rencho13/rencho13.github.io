@@ -1,0 +1,123 @@
+@font-face {
+    font-family: 'learning_curve_proregular';
+    src: url('fonts/LearningCurve_OT-webfont.eot');
+    src: url('fonts/LearningCurve_OT-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/LearningCurve_OT-webfont.woff') format('woff'),
+         url('fonts/LearningCurve_OT-webfont.ttf') format('truetype'),
+         url('fonts/LearningCurve_OT-webfont.svg#learning_curve_proregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@media all and (max-width: 1024px)
+
+{   
+    .name  
+    {
+      font-size: 1em;
+    }
+    section
+    {
+      flex-direction: column;
+    }
+   .liseret
+    { 
+      display: none;
+    }
+    .photo
+    {
+      width: 110px;
+      float: right;
+      margin-left: 15px;
+    }
+    
+   }
+
+
+h1 {
+  font-size: 3em;
+  color:black;
+}
+body 
+{color:black;
+background-color:white;
+background-image:url(img/fond.png);
+/*background-attachment:fixed;*/
+}
+
+header p
+{
+  font-size: 2em;
+  font-family: 'learning_curve_proregular';
+  
+}
+
+header 
+{ min-height: 100px;
+  text-align: center;
+
+}
+
+
+aside
+{ display: inline-block;
+  vertical-align: bottom;
+  border-radius: 10px;
+  float: left;
+  width: 6%;
+  height: 720px;
+  background-image: url(img/fond.jpg);
+
+}
+
+h3
+{ font-size: 3em;
+  font-family: 'learning_curve_proregular';
+  color:#993366;
+  text-align: center;
+}
+
+#conteneur
+{  
+  margin-left: 80px;
+  display: flex;
+  float: top;
+}
+
+.element
+{
+  flex: 1;
+}
+.logo
+{
+  float: center;
+    width: 30px;
+  height: 30px;
+
+}
+.photo
+{
+  float: right;
+	border-style: groove;
+	box-shadow:4px 4px 0px black;
+}
+
+footer
+{ 
+  margin-top: 50px;
+  text-align: right;
+}
+footer p
+{
+  text-align: center;
+}
+.play 
+{
+background-color: grey;
+}
+
+.Audio
+{ 
+  font-size:0.8em;
+}
