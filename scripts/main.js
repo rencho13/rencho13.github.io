@@ -18,3 +18,12 @@ $(function() {
     $("#texteJQ").fadeOut("slow").fadeIn("slow").css('color','red'); 
 });
 
+let monTitre = document.querySelector('h1');
+
+var element = document.getElementById('name');
+element.onmouseover = function() {
+	monTitre.textContent = 'Hello world!';
+}
+element.onmouseout = function() {
+	monTitre.textContent = 'M. BERGER Stéphan';
+}
